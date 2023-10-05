@@ -9,7 +9,7 @@ st.text('Lan Jin, Sandhya Kilari, Sahana Manjunath, Kyllan Wunder')
 st.divider()
 
 #Breast Cancer Wisconsin (Diagnostic) Data Set
-df_cancer = pd.read_csv('data.csv')
+df_cancer = pd.read_csv('https://github.com/SandhyaKilari/datascience/blob/main/data.csv')
 
 tab1, tab2, tab3, tab4 = st.tabs(['heatmap', 'lmplot', 'replot', 'displot'])
                                   
