@@ -20,7 +20,7 @@ with tab1:
     else:
         st.write("GoodBye")
     plt.figure(figsize=(20,20))
-    heatmap = sns.heatmap(df_cancer.corr(), annot=True, cmap="crest")
+    heatmap = sns.heatmap(df_cancer.corr(numeric_only=True), annot=True, cmap="crest")
     st.pyplot(heatmap.figure)
     
 
