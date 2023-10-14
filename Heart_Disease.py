@@ -8,7 +8,7 @@ st.caption('Presented by Sandhya Kilari')
 st.divider()
 
 # Load the dataset into the dataframe
-df_heart = pd.read_csv(r"C:\Users\ksand\Downloads\heart.csv")
+df_heart = pd.read_csv('https://raw.githubusercontent.com/SandhyaKilari/datascience/main/heart.csv')
 
 # Check if there are any missing values in the dataset and drop them
 df_heart.isna().sum().dropna()
